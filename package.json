@@ -9,8 +9,8 @@
     "lint": "next lint",
     "prepare": "husky"
   },
-  "line-staged": {
-    "*.{js,jsx,ts,tsx}": [
+  "lint-staged": {
+    "*.{ts,tsx}": [
       "eslint --fix",
       "git add"
     ]
